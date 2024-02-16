@@ -1,7 +1,0 @@
-﻿{
-  "Category": "None",
-  "IsTextGenerationButtonEnabled": false,
-  "LineLimit": 20,
-  "AdditionalPrompt": "",
-  "CurrentPlugin": "YukkuriMovieMaker.Plugin.TextCompletion.OpenAI.OpenAIChatTextCompletionPlugin"
-}
