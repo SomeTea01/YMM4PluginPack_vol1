@@ -1,8 +1,0 @@
-﻿{
-  "Category": "None",
-  "RichTextEditor": {
-    "IsFontFamilyVisible": false,
-    "AllowStyledPastingFromOtherApps": false,
-    "LineBreakMode": "ShiftEnter"
-  }
-}
