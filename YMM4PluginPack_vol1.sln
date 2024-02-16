@@ -5,6 +5,7 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YMM4PluginPack_vol1", "YMM4PluginPack_vol1", "{4DF5D101-98C7-4F89-A875-3B5A18EBC565}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		readme.md = readme.md
 	EndProjectSection
 EndProject

@@ -26,7 +26,7 @@ namespace PosterizationVideoEffect.Effect
         /// [Display]と[AnimationSlider]等のアイテム編集コントロール属性の2つを設定する必要があります。
         /// [AnimationSlider]以外のアイテム編集コントロール属性の一覧はSamplePropertyEditorsプロジェクトを参照してください。
         /// </summary>
-        [Display(Name = "階調", Description = "階調の数")]
+        [Display(GroupName = "エフェクト",Name = "階調", Description = "階調の数")]
         [AnimationSlider("F0", "", 2, 16)]
         public Animation GrayLevel { get; } = new Animation(0, 2, 16);
 
