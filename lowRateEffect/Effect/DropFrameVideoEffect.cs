@@ -25,7 +25,7 @@ namespace CircularMotionVideoProcessor.Effect
         /*[Display(Name = "半径", Description = "基本設定のXYを中心とした円運動の半径")]
         [AnimationSlider("F0", "px", 2, 300)]
         public Animation r { get; } = new Animation(0, 1, 4000);*/
-        [Display(Name = "落とすコマ数", Description = "")]
+        [Display(GroupName = "エフェクト", Name = "落とすコマ数", Description = "")]
         [TextBoxSlider("F0", "", 0, 120)]
         [Range(0, 120)]
         [DefaultValue(0)]
