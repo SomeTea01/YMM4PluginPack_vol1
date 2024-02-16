@@ -29,30 +29,30 @@ namespace MorseCodeEffect.Effect
         }
         public override string Label => "音声波形生成エフェクト";
 
-        [Display(Name = "音源をかぶせる", Description = "元の音源にかぶせて再生します")]
+        [Display(GroupName = "エフェクト", Name = "音源をかぶせる", Description = "元の音源にかぶせて再生します")]
         [ToggleSlider]
         public bool IsAppend { get => isAppend; set => Set(ref isAppend, value); }
         bool isAppend = false;
-        [Display(Name = "波形", Description = "発生させる波形を指定します")]
+        [Display(GroupName = "エフェクト", Name = "波形", Description = "発生させる波形を指定します")]
         [EnumComboBox]
         public WaveType WaveTypeEnum { get => waveTypeEnum; set => Set(ref waveTypeEnum, value); }
         WaveType waveTypeEnum = WaveType.正弦波;
 
-        [Display(Name = "音量", Description = "音の大きさを変更します")]
+        [Display(GroupName = "エフェクト", Name = "音量", Description = "音の大きさを変更します")]
         [AnimationSlider("F2", "%", 0, 400)]
         public Animation Volume { get; } = new Animation(100, 0, 2000);
 
-        [Display(GroupName = "", Name = "音階", Description = "記述した音階で音を鳴らします。入力例：ド#->C4# or D4b")]
+        [Display(GroupName = "エフェクト", Name = "音階", Description = "記述した音階で音を鳴らします。入力例：ド#->C4# or D4b")]
         [TextEditor(AcceptsReturn = true)]
         public string Text { get => text; set => Set(ref text, value); }
         string text = string.Empty;
 
-        [Display(Name = "周波数を有効にする", Description = "周波数を用いて音の高さを変更します")]
+        [Display(GroupName = "エフェクト", Name = "周波数を有効にする", Description = "周波数を用いて音の高さを変更します")]
         [ToggleSlider] 
         public bool EnableHz { get => enableHz; set => Set(ref enableHz, value); }
         bool enableHz = false;
 
-        [Display(Name = "周波数", Description = "音の高さを変更します")]
+        [Display(GroupName = "エフェクト", Name = "周波数", Description = "音の高さを変更します")]
         [AnimationSlider("F4", "Hz", 100, 800)]
         public Animation Hz { get; } = new Animation(440, 100, 4200);
 
