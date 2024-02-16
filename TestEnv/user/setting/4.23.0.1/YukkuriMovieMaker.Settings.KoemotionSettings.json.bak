@@ -1,0 +1,10 @@
+﻿{
+  "Category": "Voice",
+  "Koeiromap": {
+    "APIKey": null,
+    "IsFreePlan": false
+  },
+  "Koemotion": {
+    "APIKey": null
+  }
+}

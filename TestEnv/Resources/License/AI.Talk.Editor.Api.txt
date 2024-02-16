@@ -1,0 +1,3 @@
+﻿Copyright (c) AI Inc.
+利用には別途 A.I.VOICE の購入が必要です。
+https://aivoice.jp/

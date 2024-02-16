@@ -1,0 +1,10 @@
+﻿{
+  "Category": "Voice",
+  "Path": null,
+  "IsEngineEnabled": false,
+  "Speakers": [],
+  "Editor": {
+    "Width": 600.0,
+    "Height": 200.0
+  }
+}

@@ -1,0 +1,4 @@
+﻿Copyright (c) OpenAI
+利用には別途APIキーが必要です。
+利用条件等に関しては[Usage policies](https://openai.com/policies/usage-policies)をご確認ください。
+https://openai.com/

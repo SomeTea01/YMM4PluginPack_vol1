@@ -1,0 +1,5 @@
+﻿Copyright (c) 2022 いたほび
+http://itvoice.starfree.jp/
+
+外部連携APIを使用しており、利用には別途ITVOICEのダウンロードが必要です。
+利用条件等に関してはITVOICEアプリ内のヘルプをご確認ください。

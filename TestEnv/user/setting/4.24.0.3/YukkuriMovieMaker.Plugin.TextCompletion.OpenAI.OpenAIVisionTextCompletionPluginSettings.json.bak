@@ -1,0 +1,8 @@
+﻿{
+  "Category": "None",
+  "Model": "gpt-4-vision-preview",
+  "Temperature": 1.0,
+  "TopP": 1.0,
+  "FrequencyPenalty": 0.0,
+  "PresencePenalty": 0.0
+}

@@ -1,0 +1,49 @@
+﻿{
+  "Category": "Voice",
+  "AccessKey": "",
+  "SecretKey": "",
+  "Speakers": [
+    {
+      "Name": "アリアル",
+      "Style": "通常",
+      "IdOrUrl": "46a81787-af54-4a91-8c5b-3b597066294e"
+    },
+    {
+      "Name": "アリアル",
+      "Style": "通常2",
+      "IdOrUrl": "cbe4e152-40a5-4c0d-91cd-2fc27d60e6bd"
+    },
+    {
+      "Name": "アリアル",
+      "Style": "喜",
+      "IdOrUrl": "432f4a8f-f95e-4536-ae36-70417af539c3"
+    },
+    {
+      "Name": "アリアル",
+      "Style": "怒",
+      "IdOrUrl": "76c0536c-4ace-428b-a148-0a2ded355e34"
+    },
+    {
+      "Name": "アリアル",
+      "Style": "哀",
+      "IdOrUrl": "9c32c6b9-f169-435e-8f62-3b1fa89f1ce0"
+    },
+    {
+      "Name": "アリアル",
+      "Style": "楽",
+      "IdOrUrl": "15eae1c8-d421-43ee-816f-7ba00b0499ef"
+    },
+    {
+      "Name": "ミリアル",
+      "Style": "通常",
+      "IdOrUrl": "c28adf78-d67d-4588-a9a5-970a76ca6b07"
+    },
+    {
+      "Name": "ミリアル",
+      "Style": "通常2",
+      "IdOrUrl": "6603f050-495d-4045-8b5b-21a94dccff32"
+    }
+  ],
+  "IsTermsAgreed": false,
+  "TermsAgreeDate": "0001-01-01T00:00:00"
+}
