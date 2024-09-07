@@ -29,7 +29,9 @@ namespace CircularMotionVideoProcessor.Effect
         {
             var currentframe = effectDescription.ItemPosition.Frame;
             if (currentframe % (item.DropFrame + 1) == 0) {
+                if (this.frame != null && this.frame!.NativePointer != 0) this.frame.Release();
                 this.frame = input;
+                input.AddRef();
                 drawDescription = effectDescription.DrawDescription;
             }
             if (this.frame == null || drawDescription == null)
