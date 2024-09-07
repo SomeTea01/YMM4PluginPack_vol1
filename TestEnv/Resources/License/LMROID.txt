@@ -1,5 +1,0 @@
-﻿Copyright (c) 2022 nohoshio
-https://lmroidsoftware.wixsite.com/nhoshio/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84
-
-外部連携APIを使用しており、利用には別途LMROIDのダウンロードが必要です。
-利用条件等に関してはLMROIDアプリ内のヘルプをご確認ください。
