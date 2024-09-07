@@ -4,6 +4,7 @@
     <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Users\hktbl\source\repos\YMM4Projects\YMM4PluginPack_vol1\TestEnv\user\plugin</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,9 +30,5 @@
       <HintPath>..\..\YMM4_stuffs\dlls\YukkuriMovieMaker.Plugin.dll</HintPath>
     </Reference>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(OutDir)$(AssemblyName).dll &quot;$(ProjectDir)..\TestEnv\user\plugin\$(AssemblyName).dll&quot;" />
-  </Target>
 
 </Project>

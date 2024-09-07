@@ -31,8 +31,4 @@
     </Reference>
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(OutDir)$(AssemblyName).dll &quot;$(ProjectDir)..\TestEnv\user\plugin\$(AssemblyName).dll&quot;" />
-  </Target>
-
 </Project>
