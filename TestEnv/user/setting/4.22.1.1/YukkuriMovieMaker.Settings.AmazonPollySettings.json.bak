@@ -1,0 +1,49 @@
+﻿{
+  "Category": "Voice",
+  "AccessKey": null,
+  "SecretKey": null,
+  "Speakers": [
+    {
+      "Region": "ap-northeast-1",
+      "Language": "ja-JP",
+      "Name": "Mizuki",
+      "Engine": "standard"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "ja-JP",
+      "Name": "Takumi",
+      "Engine": "standard"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "ja-JP",
+      "Name": "Takumi",
+      "Engine": "neural"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "en-US",
+      "Name": "Salli",
+      "Engine": "standard"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "en-US",
+      "Name": "Salli",
+      "Engine": "neural"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "en-US",
+      "Name": "Joey",
+      "Engine": "standard"
+    },
+    {
+      "Region": "ap-northeast-1",
+      "Language": "en-US",
+      "Name": "Joey",
+      "Engine": "neural"
+    }
+  ]
+}

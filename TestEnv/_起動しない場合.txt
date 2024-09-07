@@ -1,0 +1,8 @@
+﻿32bit版のOSを使用している場合、「このアプリはお使いのPCでは実行できません」と表示され、
+そのままの状態では起動することができません。
+
+以下の操作を行うことで起動可能になります。
+1. 「https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0/runtime」にアクセスする
+2. 「X86のダウンロード」をクリックし、ファイルをダウンロードする
+3. 「windowsdesktop-runtime-6.x.x-win-x86.exe」を実行する
+4. 「このファイルが保存してあるフォルダ\Resources\Tool\32bitOSで起動するようにする.bat」を実行する

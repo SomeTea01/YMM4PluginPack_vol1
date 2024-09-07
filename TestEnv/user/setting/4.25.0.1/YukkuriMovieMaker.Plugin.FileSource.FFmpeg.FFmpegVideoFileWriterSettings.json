@@ -1,0 +1,19 @@
+﻿{
+  "Category": "None",
+  "Width": 0,
+  "Height": 0,
+  "FPS": 0,
+  "Hz": 0,
+  "Length": 0,
+  "VideoBitRateMode": "Auto",
+  "VideoBitRateControlMode": "CBR",
+  "VideoBitRate": 10000,
+  "VideoQuality": 55,
+  "AudioBitRate": "kb192",
+  "Options": null,
+  "Container": "mp4",
+  "Args": {
+    "b:v": "10000000",
+    "b:a": "192000"
+  }
+}

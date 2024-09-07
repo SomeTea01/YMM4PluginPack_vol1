@@ -1,0 +1,19 @@
+﻿{
+  "Category": "None",
+  "FavoriteEffects": [],
+  "EffectTemplate": [],
+  "AudioEffectTemplate": [],
+  "DefaultVideoEffects": {},
+  "DefaultAudioEffects": {},
+  "RecentVideoEffects": [
+    "CircularMotionVideoProcessor.Effect.DropFrameVideoEffect",
+    "PosterizationVideoEffect.Effect.PosterizationVideoEffect",
+    "CircularMotionVideoProcessor.Effect.CircularMotionVideoEffect",
+    "MorseCodeEffect.Effect.SoundWaveEffect",
+    "MorseCodeEffect.Effect.MorseCodeAudioEffect",
+    "YukkuriMovieMaker.Project.Effects.GradientEffect",
+    "YukkuriMovieMaker.Project.Effects.DrawPositionEffect",
+    "YukkuriMovieMaker.Project.Effects.SkewEffect"
+  ],
+  "RecentAudioEffects": []
+}
