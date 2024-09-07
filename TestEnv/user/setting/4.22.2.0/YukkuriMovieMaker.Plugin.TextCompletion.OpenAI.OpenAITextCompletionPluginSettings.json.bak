@@ -1,8 +1,0 @@
-﻿{
-  "Model": "text-davinci-003",
-  "Temperature": 1.0,
-  "TopP": 1.0,
-  "FrequencyPenalty": 0.0,
-  "PresencePenalty": 0.0,
-  "Category": "None"
-}
